@@ -1,0 +1,326 @@
+<html>
+	<head>
+		<title>css2</title>
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+			}
+			#righarea{
+				width:100px;
+				height:100px;
+				background:orangered;
+				position:fixed;
+				bottom:90%;
+				right:40px;
+				border-radius:50px;
+				/*animation:aditi 4s infinite;
+				animation-direction:alternate-reverse;*/
+				animation:aditi 4s 0s alternate ease-in-out;
+				animation-fill-mode:forwards;
+			}
+			@keyframes aditi{
+				0%{
+				}
+				100%{
+					bottom:0;
+					border-radius:0;
+					
+				}
+			}
+			#mainarea{
+				width:1200px;
+				height:1500px;
+				background:red;
+				/*margin-top:50px;
+				margin-left:50px;
+				margin:50px 70px 100px 150px;
+				margin:50px 100px;
+				margin:50px;*/
+				margin:0 auto;
+			}
+			#toparea{
+				width:1200px;
+				height:150px;
+				background:yellow;
+			}
+			#logoarea{
+				
+				width:120px;
+				height:120px;
+				background:plum;
+				float:left;
+				padding:15px;
+				
+			}
+			
+			#titlearea{
+				
+				width:1050px;
+				height:150px;
+				background:lime;
+				float:left;
+			}
+			@keyframes jsr{
+				0%{
+					background:red;
+	
+				}			
+				27%{
+					background:purple;
+	
+				}
+				75%{
+					background:seagreen;
+	
+				}
+				100%{
+					background:yellow;
+				}
+			}
+			@keyframes my{
+				0%{
+					transform:translatex(10px);
+				}
+				25%{
+					
+					transform:translatex(25px);
+				}
+				50%{
+					
+
+					transform:translatex(50px);
+				}
+				75%{
+					
+
+					transform:translatex(75px);
+				}
+				100%{
+					
+
+					transform:translatex(1000px);
+				}
+			}
+
+			#menuarea{
+				width:1200px;
+				height:40px;
+				background:orchid;
+
+				
+			}
+			
+			#slidearea{
+				width:1200px;
+				height:300px;
+				background:white;
+				padding:0;
+			}
+			#birdarea{
+				width:400px;
+				height:200px;
+				background:url("1.png");
+				animation-name:jsr;
+				animation-delay:0;
+				animation-duration:2s;
+				animation-iteration-count:infinite;
+			}
+			@keyframes jsr{
+				0%{
+					background:url("1.png")no-repeat;
+					transform:translatex(0px);
+				}
+				10%{
+
+					background:url("2.png")no-repeat;
+					transform:translatex(10px);
+				}
+
+				20%{
+					background:url("3.png")no-repeat;
+					transform:translatex(20px);
+				}
+				30%{
+					background:url("4.png")no-repeat;
+					transform:translatex(30px);
+				}
+				40%{
+					background:url("5.png")no-repeat;
+					transform:translatex(40px);
+				}
+				50%{
+					background:url("6.png")no-repeat;
+					transform:translatex(50px);
+				}
+				60%{
+					background:url("7.png")no-repeat;
+					transform:translatex(60px);
+				}
+				70%{
+					background:url("8.png")no-repeat;
+					transform:translatex(70px);
+				}
+				80%{
+					background:url("9.png")no-repeat;
+					transform:translatex(80px);
+				}
+				90%{
+					background:url("1.png")no-repeat;
+					transform:translatex(90px);
+				}
+				100%{
+					background:url("2.png")no-repeat;
+					transform:translatex(100px);
+				}
+			}
+			
+			
+			
+			#box1area{
+				width:1200px;
+				height:300px;
+				background:deeppink;
+			}
+			#leftarea{
+				
+				width:600px;
+				height:300px;
+				background:indigo;
+				float:left;
+			}
+			
+			#rightarea{
+				
+				width:600px;
+				height:300px;
+				background:orange;
+				float:right;
+			}
+			#darea{
+				
+				width:1200px;
+				height:300px;
+				background:blue;
+				
+			}
+			.box{
+				
+				width:300px;
+				height:200px;
+				background:steelblue;
+				float:left;
+				margin:50px;
+				background:green;
+				border-radius:20px 0;
+					
+			}
+			.bg1{
+				background:wheat;
+			}
+			.bg2{
+				background:seagreen;
+			}
+			.bg3{
+				background:yellow;
+			}
+			#marea{
+				
+				width:400px;
+				height:300px;
+				background:hotpink;
+				float:left;
+			}
+			#rarea{
+				
+				width:400px;
+				height:300px;
+				background:mistyrose;
+				float:right;
+			}
+			#footerarea{
+				
+				width:1200px;
+				height:410px;
+				background:firebrick;
+			}
+			#l1area{
+				
+				width:300px;
+				height:410px;
+				background:olive;
+				float:left;
+			}
+			#l2area{
+				
+				width:300px;
+				height:410px;
+				background:orangered;
+				float:left;
+			}
+			
+			#r1area{
+				
+				width:300px;
+				height:410px;
+				background:tomato;
+				float:right;
+			}
+			#r2area{
+				
+				width:300px;
+				height:410px;
+				background:yellowgreen;
+				float:right;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="righarea">
+</div>
+		<div id="mainarea">
+			<div id="toparea">
+				<div id="logoarea">
+					<img src="120px.png"/>
+				</div>
+				<div id="titlearea">
+				
+				</div>
+			</div>
+			<div id="menuarea">
+			</div>
+			<div id="slidearea">
+				
+				<div id="birdarea"></div>
+			</div>
+			<div id="box1area">
+				
+				<div id="leftarea">
+				</div>
+				<div id="rightarea">
+				</div>
+			</div>
+			<div id="darea">
+				
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+			</div>
+			<div id="footerarea">
+				
+				<div id="l1area">
+				</div>
+				<div id="l2area">
+				</div>
+				<div id="r1area">
+				</div>
+				<div id="r2area">
+				</div>
+			</div>
+	
+		</div>
+	</body>
+</html>
